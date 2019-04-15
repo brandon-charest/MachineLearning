@@ -6,7 +6,7 @@ import random
 
 style.use('fivethirtyeight')
 
-def create_dataset(size, variance, step=2, correlation=False):
+def create_dataset(size, variance, step=2, correlation='pos'):
     val = 1
     ys = []
 
